@@ -1,0 +1,20 @@
+{
+  "name": "aveart-medusa-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AVEART commerce backend based on Medusa v2",
+  "engines": {
+    "node": ">=22.22.0"
+  },
+  "scripts": {
+    "build": "medusa build",
+    "start": "medusa start",
+    "dev": "medusa develop",
+    "db:migrate": "medusa db:migrate"
+  },
+  "dependencies": {
+    "@medusajs/cli": "2.22.0",
+    "@medusajs/medusa": "2.22.0",
+    "@medusajs/framework": "2.22.0"
+  }
+}
